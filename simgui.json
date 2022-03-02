@@ -1,0 +1,25 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/MyDriveTrain": "Subsystem",
+      "/LiveWindow/MyDriveTrain/Differential Drive 1": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/Autonomous Command": "Command",
+      "/SmartDashboard/MyDriveDistance: default": "Command",
+      "/SmartDashboard/MyDriveWithJoysticks": "Command"
+    }
+  },
+  "NetworkTables": {
+    "LiveWindow": {
+      "MyDriveTrain": {
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "open": true
+    }
+  }
+}
